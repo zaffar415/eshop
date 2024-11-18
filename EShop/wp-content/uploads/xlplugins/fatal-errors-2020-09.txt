@@ -1,0 +1,521 @@
+
+Sep 26, 2020 11.24.54: Uncaught Error: Call to undefined function have_post() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page.php:3
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 26, 2020 11.47.16: Uncaught Error: Call to undefined method WC_Product_Simple::get_excerpt() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/woocommerce/cart/cart.php:65
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/shortcodes/class-wc-shortcode-cart.php(99): wc_get_template('cart/cart.php')
+#2 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(72): WC_Shortcode_Cart::output(Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/class-wc-shortcodes.php(85): WC_Shortcodes::shortcode_wrapper(Array)
+#4 /opt/lampp/htdocs/EShop/wp-includes/shortcodes.php(343): WC_Shortcodes::cart('', '', 'woocommerce_car...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /opt/lampp/htdocs/EShop/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ca...')
+#7 /opt/lampp/htdocs/EShop/wp-inclu
+
+Sep 26, 2020 13.12.07: Uncaught Error: Call to undefined function get_the_page_by_name() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/woocommerce/cart/proceed-to-checkout-button.php:29
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2110): wc_get_template('cart/proceed-to...')
+#2 /opt/lampp/htdocs/EShop/wp-includes/class-wp-hook.php(287): woocommerce_button_proceed_to_checkout('')
+#3 /opt/lampp/htdocs/EShop/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /opt/lampp/htdocs/EShop/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/woocommerce/cart/cart-totals.php(107): do_action('woocommerce_pro...')
+#6 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes
+
+Sep 28, 2020 07.48.37: Uncaught Error: Call to undefined function get_content() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-template/contact.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 28, 2020 10.12.43: Uncaught Error: Call to undefined method WC_Product_Simple::wc_get_product_ids_on_sale() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/template-parts/template-product_1_cols.php:7
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(732): require()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', false, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(358): get_template_part('template-parts/...', 'product_1_cols', Array)
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 28, 2020 11.53.34: Uncaught Error: Call to undefined method WC_Product_Variable::is_hot() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/template-parts/template-product_4_cols.php:17
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(732): require()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', false, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(119): get_template_part('template-parts/...', 'product_4_cols', Array)
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 28, 2020 11.54.16: Uncaught Error: Call to undefined method WC_Product_Variable::is_hot() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/template-parts/template-product_4_cols.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(732): require()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', false, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(119): get_template_part('template-parts/...', 'product_4_cols', Array)
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 28, 2020 11.54.34: Uncaught Error: Call to undefined method WC_Product_Variable::is_on_hot() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/template-parts/template-product_4_cols.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(732): require()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', false, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(119): get_template_part('template-parts/...', 'product_4_cols', Array)
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 28, 2020 11.54.41: Uncaught Error: Call to undefined method WC_Product_Variable::is_on_hot() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/template-parts/template-product_4_cols.php:16
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(732): require()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', false, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(119): get_template_part('template-parts/...', 'product_4_cols', Array)
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 28, 2020 12.19.33: Uncaught Error: Call to undefined function get_id() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:162
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 28, 2020 14.29.38: Uncaught Error: Call to undefined function get_post_thumbnail() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page.php:15
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 29, 2020 05.09.27: Uncaught Error: Call to undefined function the_comments_number() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/single-post.php:18
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 29, 2020 05.10.13: Uncaught Error: Call to undefined function the_comment_number() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/single-post.php:18
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 29, 2020 05.15.53: Uncaught Error: Object of class WP_Term could not be converted to string in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/single-post.php:34
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 29, 2020 05.19.24: Uncaught ArgumentCountError: Too few arguments to function get_tag_link(), 0 passed in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/single-post.php on line 34 and exactly 1 expected in /opt/lampp/htdocs/EShop/wp-includes/category-template.php:1146
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/single-post.php(34): get_tag_link()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown
+
+Sep 29, 2020 08.11.25: Uncaught Error: Object of class WP_Post could not be converted to string in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 08.12.14: Uncaught Error: Object of class WP_Post could not be converted to string in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 08.12.25: Uncaught Error: Object of class WP_Post could not be converted to string in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 08.13.16: Uncaught Error: Call to undefined function get_the_page_by_title() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 08.15.30: Uncaught Error: Object of class WP_Post could not be converted to string in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 08.16.10: Uncaught Error: Object of class WP_Post could not be converted to string in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 08.16.44: Uncaught Error: Call to undefined function the_page_by_title() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 08.17.24: Uncaught Error: Object of class WP_Post could not be converted to string in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 08.18.22: Uncaught Error: Call to undefined function get_parmalink() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:117
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 09.50.33: Uncaught ArgumentCountError: Too few arguments to function get_tag_link(), 0 passed in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/single-post.php on line 31 and exactly 1 expected in /opt/lampp/htdocs/EShop/wp-includes/category-template.php:1146
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/single-post.php(31): get_tag_link()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#4 {main}
+  thrown
+
+Sep 29, 2020 10.26.06: Uncaught Error: Call to undefined function get_page_by_name() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:142
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 10.26.14: Uncaught Error: Call to undefined function get_page_by_name() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:142
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 10.53.42: Uncaught Error: Call to undefined function get_title() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:145
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 10.54.13: Uncaught Error: Call to undefined function get_name() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:145
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 10.57.16: Uncaught Error: Call to undefined function get_name() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:145
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 11.03.06: Uncaught Error: Call to a member function get_name() on int in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:145
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 11.10.25: Uncaught Error: Call to undefined method WC_Product_Simple::get_sale_title() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/header.php:146
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template.php(730): require_once()
+#1 /opt/lampp/htdocs/EShop/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/front-page.php(1): get_header()
+#4 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#5 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#7 {main}
+  thrown
+
+Sep 29, 2020 11.28.40: Uncaught Error: Call to undefined function have_postts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/search.php:4
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 29, 2020 12.07.13: Uncaught Error: Call to a member function get_title() on bool in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:180
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 29, 2020 12.08.04: Uncaught Error: Call to a member function get_title() on bool in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:180
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 29, 2020 12.14.13: Uncaught Error: Call to undefined method WC_Product_Simple::get_image_url() in /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/templates/content-widget-product.php:32
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /opt/lampp/htdocs/EShop/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php(202): wc_get_template('content-widget-...', Array)
+#2 /opt/lampp/htdocs/EShop/wp-includes/class-wp-widget.php(380): WC_Widget_Products->widget(Array, Array)
+#3 /opt/lampp/htdocs/EShop/wp-includes/widgets.php(805): WP_Widget->display_callback(Array, Array)
+#4 /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php(9): dynamic_sidebar('catagory_sideba...')
+#5 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#7 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#8 {main}
+  
+
+Sep 30, 2020 06.24.18: Uncaught Error: Call to undefined function the_pagination() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:182
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 06.30.21: Uncaught Error: Call to a member function get_title() on bool in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:209
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 06.30.57: Uncaught Error: Call to a member function get_title() on bool in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:209
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 06.32.35: Uncaught Error: Call to a member function get_title() on bool in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:184
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 06.34.48: Uncaught Error: Call to undefined function get_id() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:162
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 07.37.02: Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:151
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 07.37.13: Uncaught Error: Call to undefined method WC_Product_Simple::get_the_id() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:154
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 07.37.21: Uncaught Error: Call to undefined method WC_Product_Simple::get_the_ID() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:154
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 07.37.32: Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:151
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 07.37.52: Uncaught Error: Call to undefined function get_id() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:154
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 07.38.15: Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:151
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 07.39.08: Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:151
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 07.39.47: Uncaught Error: Call to undefined method WC_Product_Simple::have_posts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:151
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 09.10.33: Uncaught Error: Call to undefined method WC_Product_Query::max_num_pages() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:192
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 09.13.50: Uncaught Error: Call to undefined method WC_Product_Query::have_posts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:178
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 09.14.07: Uncaught Error: Call to undefined method WC_Product_Query::have_posts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:173
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
+
+Sep 30, 2020 09.14.18: Uncaught Error: Call to undefined method WC_Product_Query::have_posts() in /opt/lampp/htdocs/EShop/wp-content/themes/EShop/page-shop.php:172
+Stack trace:
+#0 /opt/lampp/htdocs/EShop/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/EShop/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/EShop/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown
